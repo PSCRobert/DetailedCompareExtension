@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace ConsoleApplication
 {
-    static class extentions
+    static class extensions
     {
         // From http://stackoverflow.com/a/4951271
         public static List<Variance> DetailedCompare<T>(this T val1, T val2)
