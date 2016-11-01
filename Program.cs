@@ -19,7 +19,7 @@ namespace ConsoleApplication
             {
                 Id = 1,
                 Forename = "Jane",
-                Surname = "Dale",
+                Surname = "Smith",
                 DateOfBirth = new DateTime(1944, 07, 30)
             };
 
@@ -27,7 +27,7 @@ namespace ConsoleApplication
 
             foreach (var change in changes)
             {
-                Console.WriteLine("{0} - Old: {1}, New: {2}", change.Prop, change.valA, change.valB);
+                Console.WriteLine($"{change.Prop} - Old: {change.valA}, New: {change.valB}");
             }
         }
     }
