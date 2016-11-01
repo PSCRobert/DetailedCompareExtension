@@ -6,6 +6,7 @@ namespace ConsoleApplication
 {
     static class extentions
     {
+        // From http://stackoverflow.com/a/4951271
         public static List<Variance> DetailedCompare<T>(this T val1, T val2)
         {
             List<Variance> variances = new List<Variance>();
