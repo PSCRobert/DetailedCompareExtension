@@ -12,7 +12,8 @@ namespace ConsoleApplication
                 Id = 1,
                 Forename = "John",
                 Surname = "Smith",
-                DateOfBirth = new DateTime(1992, 01, 02)
+                DateOfBirth = new DateTime(1992, 01, 02),
+                Title = Title.Mr
             };
 
             var emp2 = new Employee() 
@@ -20,7 +21,8 @@ namespace ConsoleApplication
                 Id = 1,
                 Forename = "Jane",
                 Surname = "Smith",
-                DateOfBirth = new DateTime(1944, 07, 30)
+                DateOfBirth = new DateTime(1944, 07, 30),
+                Title = Title.Mrs
             };
 
             List<Variance> changes = emp1.DetailedCompare(emp2);
